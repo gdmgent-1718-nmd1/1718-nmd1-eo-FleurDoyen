@@ -23,3 +23,127 @@ h3 {font-family: 'Quicksand', sans-serif; font-size: 18pt;color: #477fcc;text-tr
     
 p {font-family: 'Lato', sans-serif; font-size: 12pt; color: #ffffff; line-height: 18pt}
 li {font-family: 'Lato', sans-serif; font-size: 12pt; color: #ffffff;line-height: 18pt}
+
+div.balk {
+	display: block;
+	clear: both;
+    width: 100%;
+    padding: 15px;
+    max-width: 100%; 
+}
+ul.menu {
+	list-style-type: none;
+	overflow: hidden;
+}
+li.menu {
+	float: left;
+	border-style: none;
+	border-top-right-radius: 0px px;
+	border-bottom-right-radius: 10px 0px;
+} 
+li.menu a {
+	display: block;
+    color: white;
+    font-family: 'merriweather';
+    font-weight: bold;
+	text-align: center;
+	padding: 20px 20px;
+	text-decoration: none;
+	font-size: medium;
+
+}
+li.menu a:hover {
+    border-color: #ffffff;
+	border-style: solid solid;
+}
+#logo {
+    float: left;
+    background-color: #75d2ff;
+    padding: 0px;
+    max-width: 100%; width: 100px;
+}
+#soc {
+    float: left;
+    background-color: #75d2ff;
+    padding-left: 50px;
+	margin-left: 0px;
+    max-width: 100%; width: 150px;
+}
+
+div.menu {
+	display: table;
+	table-layout: fixed;
+	clear: both;
+	width: 100%;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+.k {
+    display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: medium;
+	border-color: #ffffff;
+	border-style: solid solid;
+    width: 20%; max-width: 80px;
+    height: 80px;    
+    float: left;
+    margin: 3px;
+    }
+
+.k0 {
+    background-color: #75d1ff;
+     }
+.k1 {
+    background-color: #c5de63;
+    }
+.k2{
+    background-color: #ffeb72;
+    }
+.k3{
+    background-color: #ca7065;
+    }
+.k4{
+    background-color: #67a2bf;
+    }
+.k5{
+    background-color: #b1beff;
+    }
+.k6{
+    background-color: #477fcc;
+    }
+
+.koppeling {
+    font-family: 'Lato', sans-serif; 
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.knop {
+    background-color: #67a2bf;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 30px;
+    font-family: 'merriweather'; 
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14pt;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+#kleur{
+    width: 100%;
+    height: 100px;
+
+    }
+
+
+    
